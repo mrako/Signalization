@@ -89,7 +89,7 @@ public abstract class AbstractReader extends Thread
 		serialPort = (SerialPort) portId.open("RFID Reader @ " + portName, 0);
 	
 		try {
-		    serialPort.setSerialPortParams(9600, SerialPort.DATABITS_8,
+		    serialPort.setSerialPortParams(19200, SerialPort.DATABITS_8,
 						   SerialPort.STOPBITS_1,
 						   SerialPort.PARITY_NONE);
 	

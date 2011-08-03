@@ -136,6 +136,7 @@ public class EDHFReader extends AbstractReader {
 		
 		read = in.read(buffer,4+dataLength,1);
 		
+		
 		if (read != 1)
 			return null;
 		
